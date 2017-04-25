@@ -1,4 +1,31 @@
 .Application {
   margin: auto;
-  width: 800px;
+  width: 100%;
+}
+.Application--header h1,
+.Application--header h3,
+.SignIn{
+  text-align: center;
+}
+.Application--header h1{
+  margin-bottom: 0;
+}
+.Application--header h3{
+  margin-top: 0;
+}
+.SignIn{
+  margin-bottom: 10px;
+}
+.Application--image{
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 992px){
+  .Application--signedin{
+    width: 800px;
+    display: block;
+    margin: auto;
+  }
 }

@@ -5,6 +5,7 @@ import SignIn from './SignIn';
 import NewRestaurant from './NewRestaurant';
 import Restaurants from './Restaurants';
 import './Application.css';
+import introImage from './intro-image.jpg'
 
 class Application extends Component {
   constructor(props) {
@@ -32,13 +33,23 @@ class Application extends Component {
     return (
       <div className="Application">
         <header className="Application--header">
-          <h1>Lunch Decision</h1>
+          <h1>Welcome Dashboard Team</h1>
+          <h3>(and invited members)</h3>
         </header>
         <div>
-          {!currentUser && <SignIn />}
+          {
+            !currentUser &&
+            <div>
+              <SignIn />
+              {
+                window.innerWidth > 992 &&
+                <img className="Application--image" src={introImage} alt="dashboard-logo" />
+              }
+            </div>
+          }
           {
             currentUser &&
-            <div>
+            <div className="Application--signedin">
               <NewRestaurant />
               <Restaurants restaurants={restaurants} user={currentUser} />
               <CurrentUser user={currentUser} />
