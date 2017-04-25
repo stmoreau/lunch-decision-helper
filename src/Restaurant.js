@@ -11,7 +11,7 @@ class Restaurant extends Component {
       <article className="Restaurant">
         <h2>{ name }</h2>
         <ul>
-          { votes && map(votes, (vote, key) => <li key={key}>{ vote }</li>)}
+          { votes && map(votes, (vote, key) => <div key={key}><li>{ vote }</li><hr/></div>)}
         </ul>
         {
           userHasSelected

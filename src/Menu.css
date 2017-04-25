@@ -1,0 +1,27 @@
+.Menu{
+  background-color: #fafafa;
+  padding: 20px 135px;
+}
+.Menu--photo{
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  border-radius: 50%;
+}
+.Menu--photo,
+.Menu--displayName,
+.Menu--signout{
+  vertical-align: middle;
+}
+.Menu--identification,
+.Menu--displayName,
+.Menu--signout{
+  display: inline-block;
+}
+.Menu--displayName{
+  text-decoration: underline;
+  margin-left: 10px;
+}
+.Menu--signout{
+  float: right;
+}

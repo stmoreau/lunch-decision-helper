@@ -29,8 +29,9 @@ class NewRestaurant extends Component {
         <input
           type="text"
           value={ name }
-          placeholder="Name of Fine Establishment"
+          placeholder="Add a restaurant"
           onChange={(event) => this.setState({ name: event.target.value })}
+          className="RestaurantInput"
         />
         <button
           onClick={this.handleSubmit}

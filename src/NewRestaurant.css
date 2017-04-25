@@ -1,3 +1,35 @@
 .NewRestaurant {
   margin-bottom: 1em;
 }
+.NewRestaurant input,
+.NewRestaurant button{
+  display: block;
+  margin: auto;
+}
+.NewRestaurant input.RestaurantInput{
+  display: block;
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .NewRestaurant{
+    margin-top: 30px;
+  }
+  .NewRestaurant input.RestaurantInput{
+    width: 40%;
+  }
+}
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;
+}
+
+:-ms-input-placeholder {
+   text-align: center;
+}

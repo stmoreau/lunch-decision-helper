@@ -31,6 +31,7 @@ button, input[type="submit"], .button {
   outline: none;
   padding: 0.5rem 1rem;
   transition: 0.2s all;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 480px) {
@@ -62,6 +63,7 @@ button:disabled, input[type="submit"]:disabled, .button:disabled {
   border-color: #aaa;
   box-shadow: none;
   color: #aaa;
+  cursor: default;
 }
 
 button.forward:after, input[type="submit"].forward:after, .button.forward:after {

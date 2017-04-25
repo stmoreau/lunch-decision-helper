@@ -29,3 +29,16 @@
     margin: auto;
   }
 }
+@media (max-width: 992px){
+  .Application--header{
+    width: 80%;
+    display: block;
+    margin: auto;
+  }
+
+  .Application--body{
+    width: 80%;
+    display: block;
+    margin: auto;
+  }
+}

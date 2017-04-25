@@ -13,3 +13,10 @@
 .Restaurant--votes {
   text-align: left;
 }
+.Restaurant ul{
+  padding-left: 0;
+}
+.Restaurant li{
+  list-style-type: none;
+  text-align: center;
+}
