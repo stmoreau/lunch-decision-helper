@@ -29,7 +29,13 @@ class Application extends Component {
         </header>
         <div>
           {!currentUser && <SignIn />}
-          {currentUser && <CurrentUser user={currentUser} />}
+          {
+            currentUser &&
+            <div>
+              <NewRestaurant />
+              <CurrentUser user={currentUser} />
+            </div>
+          }
         </div>
       </div>
     );
