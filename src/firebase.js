@@ -1,7 +1,7 @@
 import firebase from 'firebase';
 
 var config = {
-  apiKey: "",
+  apiKey: "hello",
   authDomain: "",
   databaseURL: "",
   projectId: "",
