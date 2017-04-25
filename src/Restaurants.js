@@ -28,16 +28,17 @@ class Restaurants extends Component {
   }
 
   render () {
-    const { restaurants } = this.props;
+    const { user, restaurants } = this.props;
     return (
       <section className="Restaurants">
         {
           map(restaurants, (restaurant, key) => {
             return <Restaurant
-                    key={key}
-                    {...restaurant}
-                    handleSelect={() => this.handleSelect(key)}
-                    handleDeselect={() => this.handleDeselect(key)}
+                      key={key}
+                      {...restaurant}
+                      user={user}
+                      handleSelect={() => this.handleSelect(key)}
+                      handleDeselect={() => this.handleDeselect(key)}
                    />;
           })
         }
@@ -47,7 +48,7 @@ class Restaurants extends Component {
 }
 
 Restaurants.propTypes = {
-  user: PropTypes,
+  user: PropTypes.object,
   restaurantsRef: PropTypes.object,
   restaurants: PropTypes.object
 };
