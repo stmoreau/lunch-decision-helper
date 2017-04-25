@@ -6,8 +6,6 @@ import NewRestaurant from './NewRestaurant';
 import Restaurants from './Restaurants';
 import './Application.css';
 
-import map from 'lodash/map'
-
 class Application extends Component {
   constructor(props) {
     super(props);

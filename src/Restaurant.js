@@ -19,7 +19,7 @@ class Restaurant extends Component {
               Nah, nevermind
             </button>
           : <button onClick={handleSelect}>
-              Yea, I'd go there
+              Yea, I'd go there!
             </button>
         }
       </article>

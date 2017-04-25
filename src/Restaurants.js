@@ -5,10 +5,6 @@ import { database } from './firebase';
 import './Restaurants.css';
 
 class Restaurants extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   handleSelect(key) {
     const currentUser = this.props.user;
     database.ref('/restaurants')
