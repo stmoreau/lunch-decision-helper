@@ -4,8 +4,11 @@ import './Restaurant.css';
 
 class Restaurant extends Component {
   render () {
+    const { name } = this.props;
+    
     return (
       <article className="Restaurant">
+        <h2>{ name }</h2>
       </article>
     );
   }
