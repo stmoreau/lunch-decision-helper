@@ -1,7 +1,7 @@
 import firebase from 'firebase';
 
 var config = {
-  apiKey: "gitignore check",
+  apiKey: "",
   authDomain: "",
   databaseURL: "",
   projectId: "",
