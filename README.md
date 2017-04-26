@@ -1,6 +1,6 @@
 # Lunch Decision Helper
 
-Once a month my co-workers and I are going for a team lunch.
+Once every month my co-workers and I are going for a team lunch.
 
 __Every__ time we face the same issue... Where are we going this time??
 
