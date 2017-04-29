@@ -6,7 +6,8 @@
     "firebase": "^3.6.10",
     "lodash": "^4.17.4",
     "react": "15.4.2",
-    "react-dom": "15.4.2"
+    "react-dom": "15.4.2",
+    "react-places-autocomplete": "^5.0.0"
   },
   "devDependencies": {
     "react-scripts": "0.9.2"

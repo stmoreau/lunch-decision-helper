@@ -5,7 +5,9 @@ import NewRestaurant from './NewRestaurant';
 import Restaurants from './Restaurants';
 import Menu from './Menu';
 import './Application.css';
-import introImage from './intro-image.jpg'
+import introImage from './intro-image.jpg';
+
+import SimpleForm from './SimpleForm';
 
 class Application extends Component {
   constructor(props) {
@@ -59,6 +61,7 @@ class Application extends Component {
             currentUser &&
             <div className="Application--signedin">
               <NewRestaurant />
+              <SimpleForm />
               <Restaurants restaurants={restaurants} user={currentUser} />
             </div>
           }
