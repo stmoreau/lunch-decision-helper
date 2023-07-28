@@ -4,7 +4,7 @@ Once every month my co-workers and I are going for a team lunch.
 
 __Every__ time we face the same issue... Where are we going this time??
 
-This application was built to help us out in this process!
+This application was built to help us out in this process
 
 ## Tools used
 - [React](https://facebook.github.io/react/)
